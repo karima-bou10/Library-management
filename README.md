@@ -7,7 +7,7 @@ Une bibliothèque souhaite informatiser la gestion de ses fonds, des utilisateur
 ## Foncionnalités
 Les fonctionnalités à offrir par ce système sont celles, classiques, d’une bibliothèque :  
 
-  •    Gestion des livres :  
+      •    Gestion des livres :  
       o    Affichage de la liste complète des livres  
       o    Recherche d’un livre  
       o    Ajout/suppression/modification d’un livre  
