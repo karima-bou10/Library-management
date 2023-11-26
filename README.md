@@ -8,21 +8,21 @@ Une bibliothèque souhaite informatiser la gestion de ses fonds, des utilisateur
 Les fonctionnalités à offrir par ce système sont celles, classiques, d’une bibliothèque :  
 
   *    Gestion des livres :  
-      o    Affichage de la liste complète des livres  
-      o    Recherche d’un livre  
-      o    Ajout/suppression/modification d’un livre  
-      o    Ajout/suppression d’un exemplaire  
+      *    Affichage de la liste complète des livres  
+      *    Recherche d’un livre  
+      *    Ajout/suppression/modification d’un livre  
+      *    Ajout/suppression d’un exemplaire  
       
   *    Gestion des usagers :  
-      o    Affichage de la liste complète des usagers  
-      o    Recherche d’un usager  
-      o    Ajout/suppression/modification d’un usager  
+      *    Affichage de la liste complète des usagers  
+      *    Recherche d’un usager  
+      *    Ajout/suppression/modification d’un usager  
       
   *	Gestion des emprunts :  
-      o    Faire un emprunt  
-      o    Rendre un livre  
-      o    Consulter les emprunts en cours  
-      o    Consulter l’historique des emprunts  
+      *    Faire un emprunt  
+      *    Rendre un livre  
+      *    Consulter les emprunts en cours  
+      *    Consulter l’historique des emprunts  
       
 La gestion des emprunts doit permettre de savoir à quelle date l’exemplaire d’un livre a été emprunté par un usager. Un historique doit être conservé et contenir également la date de retour de l’exemplaire.
 
