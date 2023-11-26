@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma Bibliothèque</title>
+    <link rel="stylesheet" type="text/css" href="accueil1.CSS" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="inscription.php">LOGIN</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn">
+          <span></span>
+        </button>
+      </nav>
+
+      <div class="lamp-container">
+        <img src="images/lamp.png" class="lamp" />
+        <img src="images/light.png" class="light" id="light" />
+      </div>
+
+      <div class="text-container">
+        <h1>Welcome <br /></h1>
+        <br />
+        <p>
+          "La lecture est un cadeau que vous pouvez vous faire à vous-meme."
+        </p>
+        <br />
+        <a href="inscription.php">Check All Books</a>
+        <br />
+      </div>
+    </div>
+
+    <script>
+      var btn = document.getElementById("btn");
+
+      function toggleBtn() {
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+      }
+    </script>
+  </body>
+</html>
